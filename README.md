@@ -12,6 +12,8 @@
 4) To run in development mode:
 `npm run start`
 
+5) If it does not open automatically, open your browser and navigate to:
+`http://localhost:3000/`
 
 ## How To Test The Code
 
