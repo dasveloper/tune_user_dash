@@ -1,14 +1,18 @@
-### Setup
-Running the app in dev mode
+## How To Run The Code
 
-Install the dependencies by running
+### Setup
+
+1) Clone the repo to your current directory
+`git clone https://github.com/dasveloper/tune_user_dash.git` 
+
+2) Install dependencies by running
 `npm install`
 
-To run in development mode:
+3) To run in development mode:
 `npm run start`
 
 
-## How To Test
+## How To Test The Code
 
 ### Jest
 
