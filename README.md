@@ -1,7 +1,5 @@
 ## How To Run The Code
 
-### Setup
-
 1) Clone the repo to your current directory
 `git clone https://github.com/dasveloper/tune_user_dash.git` 
 
