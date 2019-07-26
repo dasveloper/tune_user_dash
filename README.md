@@ -19,7 +19,7 @@
 
 ### Jest
 
-To run unit test via Jest run:
+To run unit tests via Jest run:
 
 `npm test`
 
