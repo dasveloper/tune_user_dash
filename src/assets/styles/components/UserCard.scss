@@ -1,0 +1,109 @@
+.user-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background: $white;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  &__top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  &__user-details {
+    padding: 0 1rem;
+  }
+  &__name {
+    margin: 0.5rem 0;
+    line-height: 1.3rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+  &__occupation {
+    margin: 0.5rem 0;
+    line-height: 1rem;
+    font-size: 1rem;
+    color: $gray;
+  }
+  &__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    @include lg-up {
+      flex-direction: row;
+    }
+  }
+  &__chart-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    @include lg-up {
+      width: 60%;
+    }
+  }
+  &__chart-loader{
+    width: 100%;
+    height: 100px;
+    background: $gray-light;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__chart-loader-text{
+    font-size: .8rem;
+    color: $gray-medium-light;
+  }
+
+  &__stats-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: .5rem;
+    margin-top: 1rem;
+    border-top:1px solid $gray-medium-light;
+    align-items: center;
+    @include lg-up {
+      width: 40%;
+      flex-direction: column;
+      align-items: flex-end;
+      margin-top: 0;
+      border: none;
+      padding: 0;
+    }
+  }
+  &__stats {
+    margin: 0.25rem 0;
+    text-align: center;
+    @include lg-up {
+      text-align: right;
+    }
+  }
+  &__stats-amount {
+    margin: 0;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    font-weight: bold;
+    &--impressions {
+      color: $orange;
+    }
+    &--conversions {
+      color: $blue;
+    }
+    &--revenue {
+      color: $green;
+      font-size: 1.3rem;
+    }
+  }
+  &__stats-title {
+    margin: 0;
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+    color: $gray-medium-light;
+  }
+}

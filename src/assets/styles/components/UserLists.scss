@@ -1,0 +1,40 @@
+.users {
+  &__sort-strip {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  &__sort-text{
+    font-size: .8rem;
+  }
+  &__sort {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    &::-ms-expand {
+      display: none;
+    }
+    font-size: .8rem;
+    padding: .25rem .5rem;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid $gray-medium-light;
+    border-radius: 0;
+    background: transparent;
+    margin: 0 .5rem;
+    position: relative;
+  }
+
+  &__lists {
+    margin: auto;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    display: grid;
+    padding: 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    grid-gap: 1rem;
+  }
+}
